@@ -3,8 +3,8 @@
 class DBconnect
 {
   private $host="localhost";
-  private $user="id3753684_root";
-  private $password="Em*n007";
+  private $user="root"; //your phpmyadmin user name
+  private $password=""; //your phpmyadmin password
 
   public function connect_db($db)
   {
